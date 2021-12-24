@@ -1,0 +1,34 @@
+#__next > div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.overflow {
+  height: 50%;
+  overflow: hidden;
+}
+.overflow .card-img-top {
+  transition: ease-in-out 0.4s;
+}
+.overflow .card-img-top:hover {
+  transform: scale(1.3);
+}
+#nprogress .bar {
+  background: linear-gradient(45deg, #3f42ff, #09c0fa) !important;
+}
+.darkmode {
+  background-color: #26272a;
+}
+.darkmode .card {
+  background-color: #373a3c;
+  color: #fff;
+}
+.darkmode .btn {
+  color: #ffffffd4;
+  border-color: #1f2023;
+}
+.darkmode .btn:hover {
+  color: #fff;
+  background-color: #1f2023;
+}
