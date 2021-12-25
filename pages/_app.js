@@ -1,8 +1,16 @@
-import "bootswatch/dist/cosmo/bootstrap.min.css"
-import "../global.css"
+import "bootswatch/dist/cosmo/bootstrap.min.css";
+import Head from "next/head";
+import "../global.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        <title>Next Portfolio</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;
