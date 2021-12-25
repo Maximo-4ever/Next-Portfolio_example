@@ -20,7 +20,7 @@ function blog() {
               <div className="card-body">
                 <h2>{post.title}</h2>
                 <p>{post.content}</p>
-                <Link href={`/post?title=${post.title}`} as={`/post/${post.title}`}>
+                <Link href={`/post?title=${post.title}`}>
                   <span className="btn btn-outline-primary">Read more</span>
                 </Link>
               </div>
